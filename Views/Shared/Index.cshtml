@@ -1,0 +1,46 @@
+﻿<doctype html>
+    <html>
+        <head>
+            <title>Welcome Back</title>
+            <link href="~/Style.css" rel="stylesheet" />
+        </head>
+        <body>
+            <h1>Welcome Home</h1>
+
+            <form method="post" class="card" action="/calculation">
+
+                <label for="num1">Enter Number 1
+
+                <input type="text" name="num1" required />
+            </label>
+
+            <label for="num2">Enter Number 2
+
+                <input type="text" name="num2"   required/>
+            </label>
+            <label for=" op"> Select Opertaor
+            <select name="op">
+                <option value="Add">Addition</option>
+                <option value="Multiply">Multiplication</option>
+                <option value="Divide">Division</option>
+                <option value="Substract">Substraction</option>
+            </select>
+            </label>
+
+           <button type="submit">Calculate</button>
+
+            </form>
+
+
+        </body>
+
+
+
+
+
+
+
+
+
+
+    </html>

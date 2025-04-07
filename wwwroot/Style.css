@@ -1,0 +1,50 @@
+﻿*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+.card{
+    padding:10px 10px;
+    max-width: 400px;
+    border:groove 1px red;
+    border-radius:10px;
+    margin:20px auto;
+   
+}
+.card label{
+    display:block;
+    padding :20px;
+    font-size: 20px;
+}
+ input[type="text"],select{
+     width:100%;
+     margin-bottom:10px;
+     border-radius:5px;
+     outline-offset:unset;
+     padding:10px 5px;
+ }
+ select option{
+     font-size:20px;
+
+ }
+
+ button{
+    padding:10px 15px;
+    margin: 2px auto;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    font-size: 20px;
+
+}
+#card{
+
+}
+h1{
+    font:200 34px arial;
+    color:#fff;
+    background-color:#4800ff;
+    text-align:center;
+    padding:20px; 
+}
